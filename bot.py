@@ -105,11 +105,11 @@ def main():
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("balance", balance_cmd))
     app.add_handler(CommandHandler("work", work))
+    app.add_handler(CommandHandler("daily", daily))
+    app.add_handler(CommandHandler("gamble", gamble))
+    app.add_handler(CommandHandler("leaderboard", leaderboard))
+    app.add_handler(CommandHandler("help", help_cmd))
 
     print("Bot running...")
 
     app.run_polling()
-
-
-if __name__ == "__main__":
-    main()
