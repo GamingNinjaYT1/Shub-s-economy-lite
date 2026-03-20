@@ -7,7 +7,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 # Enable logging so you can see errors in your console
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-TOKEN = "PUT_YOUR_TOKEN_HERE" # Make sure to put your real token here!
+TOKEN = "8220065053:AAEhdRIZutXuASvPpES-iikKTcDud9XimuI" # Make sure to put your real token here!
 
 users = {}
 
